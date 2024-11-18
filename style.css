@@ -1,0 +1,152 @@
+body {
+    font-family: verdana;
+    background-color: #45b099;
+    color: #333;
+    margin: 0px;
+    padding: 20px;
+}
+h1 {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-left: 20px;
+}
+h2 {
+    color: #336699;
+    margin-left: 20px;
+}
+p {
+    line-height: 2;
+    margin-left: 20px;
+}
+a {
+    color: #223843;
+    font-family: verdana;
+    margin-left: 20px;
+}
+.content {
+    display: flex;
+    background: #456969;
+    margin: 20px;
+    border-radius: 50px;
+    padding: 20px;
+}
+.content-left {
+    flex: 3;
+    background: #ffccdd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+}
+.content-right {
+    flex: 2;
+    background: #ffccdd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-image {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #223843; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.header a {
+    margin-left: 15px;
+    text-decoration: 1;
+    color: #FFFFFF;
+}
+.container {
+    display: flex; 
+    justify-content: center; 
+    background-color: #456969; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.picture {
+    width: 200px;
+    height: 200px;
+}
+.block {
+    width: 200px; 
+    height: 200px; 
+    background-color:#ffccdd;
+}
+.container-2 {
+    background-color: #456969; 
+    height: 300px; 
+    display: flex;
+    margin: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.block-2 {
+    background-color: #ffccdd; 
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+}
+.container-3 {
+    background-color: #456969;
+    display: flex;
+    justify-content: space-between; 
+    border: 2px solid #515252;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    flex-wrap: wrap; 
+}
+.block-3 {
+    background-color: #ffccdd; 
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 7px;
+}
+.container-4 {
+    position: relative; 
+    width: 400px; 
+    height: 400px; 
+    margin: auto; 
+    background-color: #456969;
+    border-radius: 10px;
+}
+.square {
+    position: absolute; 
+    width: 100px; 
+    height: 100px; 
+    border: 5px solid transparent; 
+    border-radius: 5px;
+}
+.square1 {
+    top: 80px; 
+    left: 80px; 
+    border-color: red; 
+}
+.square2 {
+    top: 150px; 
+    left: 150px; 
+    border-color: green; 
+}
+.square3 {
+    top: 220px; 
+    left: 220px; 
+    border-color: blue; 
+}
+
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.5;
+}
